@@ -14,5 +14,5 @@ Aprendiendo a programar objetos tecnológicos vamos a desarrollar proyectos cien
 Los recursos que vamos a utilizar
 
 Programar | Actuadores | Sensores
---|--
+-- | --
 
