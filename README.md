@@ -15,5 +15,5 @@ Los recursos que vamos a utilizar
 
 |Programar|Actuadores|Sensores|
 |---------|----------|--------|
-|Visualino|LED|Pulsador|
+|[Visualino](http://www.visualino.net)|[LED](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/04_LED)|[Pulsador](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/01_Pulsador)|
 
