@@ -15,4 +15,5 @@ Los recursos que vamos a utilizar
 
 Programar | Actuadores | Sensores
 -- | --
+Visualino | LED | Pulsador
 
