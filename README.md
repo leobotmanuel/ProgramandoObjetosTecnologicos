@@ -13,7 +13,7 @@ Aprendiendo a programar objetos tecnológicos vamos a desarrollar proyectos cien
 
 Los recursos que vamos a utilizar
 
-Programar | Actuadores | Sensores
+Programar|Actuadores|Sensores
 -- | --
-Visualino | LED | Pulsador
+Visualino|LED|Pulsador
 
