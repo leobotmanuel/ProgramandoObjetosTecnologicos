@@ -5,11 +5,11 @@ Aprendiendo a programar objetos tecnológicos vamos a desarrolar proyectos cient
 
 - SISTEMA ELECTRONICO PROGRAMABLE EN LAZO ABIERTO
 
-<a href="" target="_blank"><img width="366" height="278" border="0" align="center" src="img/sistemaElectronicoAbierto.png "/></a>
+<a href="" target="_blank"><img width="774" height="310" border="0" align="center" src="img/sistemaElectronicoAbierto.png "/></a>
 
 - SISTEMA ELECTRONICO PROGRAMABLE EN LAZO CERRADO
 
-<a href="" target="_blank"><img width="366" height="278" border="0" align="center" src="img/sistemaElectronicoCerrado.png "/></a>
+<a href="" target="_blank"><img width="779" height="460" border="0" align="center" src="img/sistemaElectronicoCerrado.png "/></a>
 
 El LED en EduBasica se utiliza para aprender a programar las [salidas digitales](https://www.luisllamas.es/salidas-digitales-en-arduino/)
 
