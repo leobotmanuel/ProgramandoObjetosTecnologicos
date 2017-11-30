@@ -15,7 +15,8 @@ Los recursos que vamos a utilizar
 
 |Programar|Actuadores|Sensores|Comunicaciones|
 |---------|----------|--------|--------------|
-|[Visualino](http://www.visualino.net)|[LED](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/04_LED)|[Pulsador](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/01_Pulsador)|Bluetooth|
+|[Visualino](http://www.visualino.net)|[LED](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/04_LED)|[Pulsador](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/01_Pulsador)|Puerto serie
+(USB)|
 |[EduBasica](http://www.practicasconarduino.com)|[Motor DC](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/01_MotorDC)|[LDR](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/03_LDR_sensorLuz)|
 |[Arduino](https://www.arduino.cc)|[Servomotor](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/02_Servomotor)|[Potenciómetro](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/02_Potenciometro)|
 
