@@ -19,3 +19,5 @@ Los recursos que vamos a utilizar
 |[EduBasica](http://www.practicasconarduino.com)|[Motor DC](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/01_MotorDC)|[LDR](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/03_LDR_sensorLuz)|[Bluetooth](https://github.com/leobotmanuel/EduBasica/tree/master/software/05_Comunicaciones/01_Bluetooth)|
 |[Arduino](https://www.arduino.cc)|[Servomotor](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/02_Servomotor)|[Potenciómetro](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/02_Potenciometro)|
 |  |    |[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|    |
+|   |   |[Sharp 0A441](http://www.electroensaimada.com/sensor-infrarrojo.html)|   |
+|   |   |[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|   |
