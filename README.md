@@ -21,3 +21,6 @@ Los recursos que vamos a utilizar
 |  |    |[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|    |
 |   |   |[Sharp 0A41](http://www.electroensaimada.com/sensor-infrarrojo.html)|   |
 |   |   |[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|   |
+
+(*) programado en Arduino
+(**) programado en Arduino y Visualino
