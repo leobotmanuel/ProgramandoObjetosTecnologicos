@@ -23,4 +23,5 @@ Los recursos que vamos a utilizar
 |   |   |[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|   |
 
 (*) programado en Arduino
+
 (**) programado en Arduino y Visualino
