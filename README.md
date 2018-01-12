@@ -21,8 +21,6 @@ Los recursos que vamos a utilizar
 |  |[Servomotor de rotación continua (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/03_ServomotorRotacionContinua)|[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|    |
 |   |   |[Sharp 0A41](http://www.electroensaimada.com/sensor-infrarrojo.html)|   |
 |   |   |[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|   |
-
-
 |Proyectos con EduBasica|
 |---------|
 |[Control de ON-OFF de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip) (*)|
