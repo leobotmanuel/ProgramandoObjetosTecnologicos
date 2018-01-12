@@ -24,7 +24,7 @@ Los recursos que vamos a utilizar
 
 
 |Proyectos con EduBasica|Programacion|
-|---------|
+|---------|---------|
 |Control de ON-OFF de LEDs con LDR|*|
 
 (*) programado en Arduino
