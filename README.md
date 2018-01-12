@@ -23,9 +23,11 @@ Los recursos que vamos a utilizar
 |   |   |[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|   |
 
 
-|Proyectos con EduBasica|Programacion|
-|---------|---------|
-|Control de ON-OFF de LEDs con LDR|*|
+|Proyectos con EduBasica|
+|---------|
+|[Control de ON-OFF de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip) (*)|
+|[Control PWM de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy02_control_PWM_LEDsLDR.zip) (*)|
+
 
 (*) programado en Arduino
 
