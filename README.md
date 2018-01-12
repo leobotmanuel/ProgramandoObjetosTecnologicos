@@ -20,8 +20,8 @@ Los recursos que vamos a utilizar
 |[Arduino](https://www.arduino.cc)|[Servomotor (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/02_Servomotor)|[LDR (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/03_LDR_sensorLuz)|
 |  |[Servomotor de rotación continua (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/03_ServomotorRotacionContinua)|[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|    |
 |   |**SENSORES**|   |   |
-|   |   |[Sharp 0A41](http://www.electroensaimada.com/sensor-infrarrojo.html)|   |
-|   |   |[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|   |
+|[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|[Sharp 0A41](http://www.electroensaimada.com/sensor-infrarrojo.html)|   |
+|   |   |   |   |
 
 |Proyectos con EduBasica|
 |---------|
