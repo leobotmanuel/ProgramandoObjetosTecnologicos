@@ -29,7 +29,7 @@ Los recursos que vamos a utilizar
 | 02 |[Control PWM de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy02_control_PWM_LEDsLDR.zip) (*)|
 | 03 |[Control PWM de motor dc con potenciometro (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy03_controlPWM_Motor.zip)|
 | 04 |Control de temperatura-ventilador (*)|
-| 05 |Barrera de parking (*) [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip)|
+| 05 |Barrera de parking (*), [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip)|
 
 
 (*) programado en Arduino
