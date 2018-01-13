@@ -23,11 +23,11 @@ Los recursos que vamos a utilizar
 |[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|[Sharp 0A41](http://www.electroensaimada.com/sensor-infrarrojo.html)|   |
 |   |   |   |   |
 
-|Proyectos con EduBasica|
+|    |Proyectos con EduBasica|
 |---------|---------|
-|[Control de ON-OFF de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip) (*)|
-|[Control PWM de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy02_control_PWM_LEDsLDR.zip) (*)|
-|[Control PWM de motor dc con potenciometro (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy03_controlPWM_Motor.zip)|
+|    |[Control de ON-OFF de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip) (*)|
+|    |[Control PWM de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy02_control_PWM_LEDsLDR.zip) (*)|
+|    |[Control PWM de motor dc con potenciometro (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy03_controlPWM_Motor.zip)|
 
 
 (*) programado en Arduino
