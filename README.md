@@ -31,7 +31,7 @@ Los recursos que vamos a utilizar
 | 04 |Control de temperatura-ventilador (*)|
 | 05 |Medida de temperatura-humedad(*)|
 | 06 |Barrera de parking (*), [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip)|
-| 07 |Robot móvil|
+| 07 |Robot móvil(*)|
 
 
 (*) programado en Arduino
