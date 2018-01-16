@@ -30,7 +30,7 @@ Los recursos que vamos a utilizar
 | 03 |[Control PWM de motor dc con potenciometro (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy03_controlPWM_Motor.zip)|
 | 04 |[Control de temperatura-ventilador (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy04_controlTempVentilador.zip)|
 | 05 |[Medida de temperatura-humedad(*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy05_medidaTemperatura.zip)|
-| 06 |Barrera de parking (*), [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip)|
+| 06 |Barrera de parking (*), [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/programasParking.zip)|
 | 07 |Robot móvil(*),[archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/programasRobotmotorDC.zip)|
 
 
