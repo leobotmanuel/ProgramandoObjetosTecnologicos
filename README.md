@@ -20,7 +20,7 @@ Los recursos que vamos a utilizar
 |[Arduino](https://www.arduino.cc)|[Servomotor (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/02_Servomotor)|[LDR (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/03_LDR_sensorLuz)|
 |  |[Servomotor de rotación continua (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/03_ServomotorRotacionContinua)|   |    |
 |   |**SENSORES**|   |   |
-|[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|[Sharp 0A41](http://www.electroensaimada.com/sensor-infrarrojo.html)|   |
+|[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|[Sharp 0A41](http://www.electroensaimada.com/sensor-infrarrojo.html)|[DHT11](http://www.practicasconarduino.com/manualrapido/medida_de_la_temperatura_y_la_humedad_ambiente.html)   |
 |   |   |   |   |
 
 |    |Proyectos con EduBasica|
@@ -29,7 +29,9 @@ Los recursos que vamos a utilizar
 | 02 |[Control PWM de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy02_control_PWM_LEDsLDR.zip) (*)|
 | 03 |[Control PWM de motor dc con potenciometro (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy03_controlPWM_Motor.zip)|
 | 04 |Control de temperatura-ventilador (*)|
-| 05 |Barrera de parking (*), [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip)|
+| 05 |Medida de temperatura-humedad(*)|
+| 06 |Barrera de parking (*), [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy01_controlLEDsLDR.zip)|
+| 07 |Robot móvil|
 
 
 (*) programado en Arduino
