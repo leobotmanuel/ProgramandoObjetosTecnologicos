@@ -3,7 +3,6 @@
 ```cpp
 /*
 Proyecto de control ON-OFF de los LEDs con LDR 
-
 enero 2018 - Manuel Hidalgo / LeoBot
 programa de dominio publico
 */
