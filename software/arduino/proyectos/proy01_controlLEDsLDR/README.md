@@ -6,6 +6,9 @@ Este proyecto enciende los LEDs en función de la luminosidad del ambiente. Se h
 - nivel 2 --> 2 LEDs ON y 1 LED OFF.
 - nivel 3 --> 3 LEDs ON.
 
+Los objetos tecnológicos de la placa EduBasica son:
+- Los LEDs
+
 ```cpp
 /*
 Proyecto de control ON-OFF de los LEDs con LDR 
@@ -51,13 +54,13 @@ void loop(){
     valorNivel = 0;
   }
   if ((valorSensorLDR >= 625) && (valorSensorLDR < 725)) {
-    digitalWrite(ledG, HIGH);
-    digitalWrite(ledY, LOW);
+    digitalWrite(ledG, LOW);
+    digitalWrite(ledY, HIGH);
     digitalWrite(ledR, LOW);
     valorNivel = 1;
   }
   if ((valorSensorLDR >= 725) && (valorSensorLDR < 900)) {
-    digitalWrite(ledG, HIGH);
+    digitalWrite(ledG, LOW);
     digitalWrite(ledY, HIGH);
     digitalWrite(ledR, LOW);
     valorNivel = 2;
