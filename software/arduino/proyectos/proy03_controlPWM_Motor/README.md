@@ -1,11 +1,7 @@
 # Control de velocidad (control PWM) de un motor de corriente continua.
 
 ## Propuesta del proyecto
-Este proyecto controla la velocidad (control PWM) de un motor dc, conectado a la * Salida de Potencia.
-- nivel 0 --> 3 LEDs OFF.
-- nivel 1 --> 1 LED ON y 2 LEDs OFF.
-- nivel 2 --> 2 LEDs ON y 1 LED OFF.
-- nivel 3 --> 3 LEDs ON.
+Control de velocidad (control PWM) de un motor dc, conectado a la **Salida de Potencia** (clema de conexión en la parte inferior izquierda) y el **potenciómetro** de la placa EduBasica.
 
 ## Objetos tecnológicos
 Los objetos tecnológicos de la placa EduBasica utilizados son:
