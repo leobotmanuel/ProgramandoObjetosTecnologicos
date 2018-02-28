@@ -1,4 +1,10 @@
+# Control ON-OFF de los LEDs con la luminosidad
 
+Este proyecto enciende los LEDs en función de la luminosidad del ambiente. Se ha establecido 4 niveles de 0 a 3.
+1. nivel 0 --> 3 LEDs OFF.
+1. nivel 1 --> 1 LED ON y 2 LEDs OFF.
+1. nivel 2 --> 2 LEDs ON y 1 LED OFF.
+1. nivel 3 --> 3 LEDs ON.
 
 ```cpp
 /*
