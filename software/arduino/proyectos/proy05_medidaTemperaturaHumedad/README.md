@@ -49,7 +49,6 @@ void loop() {
   Serial.print("\tTemperatura (ºC): ");
   Serial.println(t);
 }
-*/
 ```
 
 ## Código del proyecto
