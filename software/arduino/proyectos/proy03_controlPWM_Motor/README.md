@@ -5,13 +5,13 @@ Control de velocidad (control PWM) de un motor dc, conectado a la **Salida de Po
 
 ## Objetos tecnológicos
 Los objetos tecnológicos de la placa EduBasica utilizados son:
-- Los LEDs
+- Potenciómetro.
 
-<a href="" target="_blank"><img width="366" height="278" border="0" align="center" src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/leds_cirEdubasica.png"/></a>
+<a href="" target="_blank"><img width="130" height="275" border="0" align="center" src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/potenciometro_cirEdubasica01.png"/></a>
 
-- El sensor LDR
+- Salida de potencia
 
-<a href="" target="_blank"><img width="109" height="274" border="0" align="center" src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/LDR_esqEdubasica.png"/></a>
+<a href="" target="_blank"><img width="547" height="208" border="0" align="center" src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/SalidaPotencia01.png"/></a>
 
 ## Explicación del código.
 
