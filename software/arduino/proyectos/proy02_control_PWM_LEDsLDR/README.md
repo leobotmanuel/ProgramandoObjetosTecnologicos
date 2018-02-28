@@ -1,11 +1,7 @@
 # Control PWM de los LEDs con la luminosidad
 
 ## Propuesta del proyecto
-Este proyecto enciende los LEDs en función de la luminosidad del ambiente. Se ha establecido 4 niveles de 0 a 3.
-- nivel 0 --> 3 LEDs OFF.
-- nivel 1 --> 1 LED ON y 2 LEDs OFF.
-- nivel 2 --> 2 LEDs ON y 1 LED OFF.
-- nivel 3 --> 3 LEDs ON.
+Este proyecto gradua la luminosidad de los LEDs (control PWM) en función de la luminosidad del ambiente.
 
 ## Objetos tecnológicos
 Los objetos tecnológicos de la placa EduBasica utilizados son:
@@ -84,3 +80,6 @@ void loop(){
   delay(10);    
 } //fin del programa principal
 ```
+
+## Código del proyecto
+[Dercarga](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy02_control_PWM_LEDsLDR.zip)
