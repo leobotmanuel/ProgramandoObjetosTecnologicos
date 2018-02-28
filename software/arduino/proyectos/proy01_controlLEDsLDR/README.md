@@ -6,10 +6,14 @@ Este proyecto enciende los LEDs en función de la luminosidad del ambiente. Se h
 - nivel 2 --> 2 LEDs ON y 1 LED OFF.
 - nivel 3 --> 3 LEDs ON.
 
-Los objetos tecnológicos de la placa EduBasica son:
+Los objetos tecnológicos de la placa EduBasica utilizados son:
 - Los LEDs
 
 <a href="" target="_blank"><img width="366" height="278" border="0" align="center" src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/leds_cirEdubasica.png"/></a>
+
+- El sensor LDR
+
+<a href="" target="_blank"><img width="218" height="549" border="0" align="center" src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/LDR_esqEdubasica.png"/></a>
 
 ```cpp
 /*
