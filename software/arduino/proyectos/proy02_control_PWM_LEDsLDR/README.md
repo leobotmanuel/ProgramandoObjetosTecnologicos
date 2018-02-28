@@ -1,7 +1,7 @@
 # Control PWM de los LEDs con la luminosidad
 
 ## Propuesta del proyecto
-Este proyecto gradua la luminosidad de los LEDs (control PWM) en función de la luminosidad del ambiente.
+Este proyecto gradua la luminosidad de los LEDs verde y rojo de la placa EduBasica (control PWM) en función de la luminosidad del ambiente o foco luminoso (linterna).
 
 ## Objetos tecnológicos
 Los objetos tecnológicos de la placa EduBasica utilizados son:
