@@ -33,7 +33,7 @@ Los recursos que vamos a utilizar
 | 02 |[Control PWM de LEDs con LDR](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/tree/master/software/arduino/proyectos/proy02_control_PWM_LEDsLDR) (*)|
 | 03 |[Control PWM de motor dc con potenciometro (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/tree/master/software/arduino/proyectos/proy03_controlPWM_Motor)|
 | 04 |[Control de temperatura-ventilador (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy04_controlTempVentilador.zip)|
-| 05 |[Medida de temperatura-humedad(*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy05_medidaTemperaturaHumedad.zip)|
+| 05 |[Medida de temperatura-humedad(*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/tree/master/software/arduino/proyectos/proy04_TempVentilador)|
 | 06 |Barrera de parking (*), [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/programasParking.zip)|
 | 07 |Robot móvil(*),[archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/programasRobotmotorDC.zip)|
 
