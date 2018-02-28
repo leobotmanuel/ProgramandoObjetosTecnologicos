@@ -1,6 +1,6 @@
 
 
-```C
+```cpp
 /*
 Proyecto de control ON-OFF de los LEDs con LDR 
 
