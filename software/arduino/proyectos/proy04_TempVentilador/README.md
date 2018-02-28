@@ -9,12 +9,12 @@ Control de temperatura con un ventilador, conectado a la **Salida de Potencia** 
 Explicación de funcionamiento del [LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/), web de Luis Llamas.
 
 Los objetos tecnológicos de la placa EduBasica utilizados son:
-- Salida de potencia
+- **Salida de potencia**
 
 <a href="" target="_blank"><img width="547" height="258" border="0" align="center" src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/SalidaPotencia01.png"/></a>
 
 ## Explicación del código.
-Para el correcto funcionamiento de control, la variable umbral hay que modificarla para que actúe correctamente.
+Para el correcto funcionamiento del control, la variable umbral hay que modificarla para que actúe correctamente y al sensor de temperatura dando calor, apretando con los dedos el sensor o fuente de calor con cuidado (acercando una bombilla al sensor de 40W o 60W).
 
 ```cpp
 /*
