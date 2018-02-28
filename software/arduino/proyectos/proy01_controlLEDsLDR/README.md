@@ -8,7 +8,7 @@ Este proyecto enciende los LEDs en función de la luminosidad del ambiente. Se h
 
 Los objetos tecnológicos de la placa EduBasica son:
 - Los LEDs
-<a href="" target="_blank"><img width="88" height="31" border="0" align="center" src="img/leds_cirEdubasica.png "/></a>
+<a href="" target="_blank"><img width="88" height="31" border="0" align="center" src=" ProgramandoObjetosTecnologicos/software/arduino/proyectos/img/leds_cirEdubasica.png"/></a>
 
 ```cpp
 /*
