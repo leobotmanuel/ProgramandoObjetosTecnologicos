@@ -13,6 +13,8 @@ Aprendiendo a programar objetos tecnológicos vamos a desarrollar proyectos cien
 
 Los recursos que vamos a utilizar
 
+## Objetos Tecnológicos
+
 |Programar|Actuadores|Sensores|Comunicaciones|
 |---------|----------|--------|--------------|
 |[Visualino](http://www.visualino.net)|[LED (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/04_LED)|[Pulsador (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/01_Pulsador)|[Puerto serie (USB) (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/05_Comunicaciones/00_ComunicacionesSerie)|
@@ -22,6 +24,8 @@ Los recursos que vamos a utilizar
 |   |**SENSORES**|   |   |
 |[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|[Sharp 0A41](http://www.electroensaimada.com/sensor-infrarrojo.html)|[DHT11](http://www.practicasconarduino.com/manualrapido/medida_de_la_temperatura_y_la_humedad_ambiente.html)   |
 |   |   |   |   |
+
+## Proyectos
 
 |    |Proyectos con EduBasica|
 |---------|---------|
