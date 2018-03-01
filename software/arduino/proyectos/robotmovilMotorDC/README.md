@@ -17,7 +17,9 @@ Fuente: [EducaBot](http://platea.pntic.mec.es/~mhidalgo/educabot.html), Manuel H
 
 - [**Motores DC**](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/01_MotorDC) son los actuadores del robot móvil.
 
-Su programa de funcionamiento de movimientos básicos.
+Su programa de funcionamiento de movimientos básicos. En el código tenemos que ir cambiando los comentarios de los movimeintos para hacer las comprobaciones.
+
+En este código el robot está girando durante 4s y parado 2s.
 
 ```cpp
 /*
