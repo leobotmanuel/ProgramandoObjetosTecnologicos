@@ -49,11 +49,8 @@ void setup(){
 }
 
 void loop(){
-  //forward();
-  //delay(4000);              
- // stop();
- // delay(2000);
- // backw(250);
+  //forward(200);
+  // backw(250);
   right(127);
   //left(127);
   delay(4000); 
