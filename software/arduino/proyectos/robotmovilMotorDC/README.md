@@ -9,46 +9,97 @@ El diagrama de bloques del robot móvil es el siguiente
 src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/diagramaRobot.png"/></a>
 
 ## Objetos tecnológicos
-- **Sensor de temperatura LM35**, se conecta en la entrada analógica A5.
+- **La tarjeta de control** la forma la placa Arduino-EduBasica donde se conectan los objetos tecnológicos.
 
-Explicación de funcionamiento del [LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/), web de Luis Llamas.
+- **Motores DC** son los actuadores del robot móvil.
 
-Los objetos tecnológicos de la placa EduBasica utilizados son:
-- **Salida de potencia**
-
-## Explicación del código.
-Para el correcto funcionamiento del control, la variable umbral hay que modificarla para que actúe correctamente y al sensor de temperatura dando calor, apretando con los dedos el sensor o fuente de calor con cuidado (acercando una bombilla al sensor de 40W o 60W).
+Su programa de funcionamiento
 
 ```cpp
 /*
-Control temperatura con ventilador OFF-ON.
+  Movimientos basicos del robot 
+  EL INTERRUPTOR DE CORRIENTE DE EDUBASICA TIENE QUE ESTAR EN POSICION ON
 
-enero 2018 - Manuel Hidalgo / LeoBot
-programa adaptado a EduBasica
+  Manuel Hidalgo - LeoBot  Julio 2014
+  Pablo Garcia - May 2015
 */
-int Sensor = A5 ;             // Pin que lee la temperatura
-int umbral = 15 ;            // Temparatura que arranca el ventilador
-const int control = 6 ;      // Gobierna el ventilador
 
-void setup()
-   {   Serial.begin(9600);
-       pinMode(control,  OUTPUT) ;
-   }
+//Etiquetas de identificación de los pines
+const int motorA_Dir1 = 8;         //pines para controlar la direccion de giro
+const int motorA_Dir2 = 9;
+const int motorA_Velocidad = 10;  //salida PWM para controlar la velocidad // PWM for speed
+const int motorB_Dir1 = 12;       //pines para controlar la direccion de giro
+const int motorB_Dir2 = 13;
+const int motorB_Velocidad = 11;  //salida PWM para controlar la velocidad
 
-void loop()
-   {   int lectura = analogRead(Sensor);
-       float voltaje = 5.0 /1024 * lectura ;    
-       float temp = voltaje * 100 -5 ;
-       Serial.println(temp) ;
+//Variables
+//int vPWM = 155;    //valor de la velocidad en PWM 
 
-       if (temp >= umbral)
-           digitalWrite(control, HIGH);
-       else
-           digitalWrite(control, LOW);
+void setup(){
+  //configuracion de los pines
+  pinMode(motorA_Dir1, OUTPUT);
+  pinMode(motorA_Dir2, OUTPUT);
+  pinMode(motorB_Dir1, OUTPUT);
+  pinMode(motorB_Dir2, OUTPUT);
+  
+}
 
-       delay(200);
-   }
+void loop(){
+  //forward();
+  //delay(4000);              
+ // stop();
+ // delay(2000);
+ // backw(250);
+  right(127);
+  //left(127);
+  delay(4000); 
+  stop();
+  delay(2000);  
+}
+
+void forward(int v){
+  int vPWM = v;
+  digitalWrite(motorA_Dir1,LOW);
+  digitalWrite(motorA_Dir2,HIGH); 
+  analogWrite(motorA_Velocidad,vPWM);
+  digitalWrite(motorB_Dir1,HIGH);
+  digitalWrite(motorB_Dir2,LOW); 
+  analogWrite(motorB_Velocidad,vPWM);
+}
+   
+void backw(int v){
+  int vPWM = v;
+  digitalWrite(motorA_Dir1,HIGH);
+  digitalWrite(motorA_Dir2,LOW); 
+  analogWrite(motorA_Velocidad,vPWM);
+  digitalWrite(motorB_Dir1,LOW);
+  digitalWrite(motorB_Dir2,HIGH); 
+  analogWrite(motorB_Velocidad,vPWM);
+}
+
+void right(int v){
+  int vPWM = v;
+  digitalWrite(motorA_Dir1,LOW);
+  digitalWrite(motorA_Dir2,HIGH); 
+  analogWrite(motorA_Velocidad,vPWM);
+  digitalWrite(motorB_Dir1,LOW);
+  digitalWrite(motorB_Dir2,HIGH); 
+  analogWrite(motorB_Velocidad,vPWM);
+}
+
+void left(int v){
+  int vPWM = v;
+  digitalWrite(motorA_Dir1,HIGH);
+  digitalWrite(motorA_Dir2,LOW); 
+  analogWrite(motorA_Velocidad,vPWM);
+  digitalWrite(motorB_Dir1,HIGH);
+  digitalWrite(motorB_Dir2,LOW); 
+  analogWrite(motorB_Velocidad,vPWM);
+}
+
+void stop(){
+  analogWrite(motorA_Velocidad,0);
+  analogWrite(motorB_Velocidad,0);
+}
 ```
 
-## Código del proyecto
-[Dercarga](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/proy04_controlTempVentilador.zip)
