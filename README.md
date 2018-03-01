@@ -34,8 +34,8 @@ Los recursos que vamos a utilizar
 | 03 |[Control PWM de motor dc con potenciometro (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/tree/master/software/arduino/proyectos/proy03_controlPWM_Motor)|
 | 04 |[Control de temperatura-ventilador (*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/tree/master/software/arduino/proyectos/proy04_TempVentilador)|
 | 05 |[Medida de temperatura-humedad(*)](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/tree/master/software/arduino/proyectos/proy05_medidaTemperaturaHumedad)|
-| 06 |Barrera de parking (*), [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/programasParking.zip)|
-| 07 |Robot móvil(*),[archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/programasRobotmotorDC.zip)|
+| 06 |[Barrera de parking](http://platea.pntic.mec.es/~mhidalgo/page5.html) (*), [archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/programasParking.zip)|
+| 07 |[Robot móvil](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/robotmovilMotorDC/README.md)(*),[archivos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/programasRobotmotorDC.zip)|
 
 
 (*) programado en Arduino
