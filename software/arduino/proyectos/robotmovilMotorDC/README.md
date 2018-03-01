@@ -236,5 +236,24 @@ void loop() {
 }
 ```
 
+Sabiendo el funcionamiento de los distintos objetos tecnológicos que hemos visto podemos programar un robot móvil seguidor de línea.
 
+Su lógica de funcionamiento es la siguiente:
+```cpp
+REPETIR
+  LEER CNY70_DER
+  LEER CNY70_IZQ
+  
+  SI CNY70_DER --> NEGRO
+     CNY70_IZQ --> NEGRO    ---> AVANZA
+  
+  SI CNY70_DER --> BLANCO
+     CNY70_IZQ --> NEGRO    ---> GIRO IZQUIERDA
+     
+  SI CNY70_DER --> NEGRO
+     CNY70_IZQ --> BLANCO   ---> GIRO DERECHA
+     
+  SI CNY70_DER --> BLANCO
+     CNY70_IZQ --> BLANCO   ---> PARADO
+ ```
 
