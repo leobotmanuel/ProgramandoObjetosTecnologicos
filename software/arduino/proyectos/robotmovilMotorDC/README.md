@@ -193,6 +193,48 @@ int medida() {
    return distancaCm;
 }
 ```
+- [**Sensor IR CNY70**](http://www.practicasconarduino.com/manualrapido/sensor_de_infrarrojos_cny70.html), sensor de infrarrojos para detectar una línea negra sobre un fondo blanco. Se utiliza para hacer un robot seguidor de linea.
+
+```cpp
+/*
+Test CNY70, sensor infrarrojos seguidor de linea, del robot 
+
+enero 2018 - Manuel Hidalgo / LeoBot
+programa adaptado a Robot con EduBasica
+*/
+
+//Declaracion de pines
+
+#define cny70_D 17
+#define cny70_I 16
+
+//Declaracion de variables
+int estadoCNY70_D;
+int estadoCNY70_I;
+
+void setup(){
+  //Configuracion de comunicaciones y pines
+  Serial.begin(9600);
+  pinMode(cny70_D, INPUT);
+  pinMode(cny70_I, INPUT);
+  
+ }
+ 
+
+void loop() {
+
+  estadoCNY70_D = digitalRead(cny70_D);
+  estadoCNY70_I = digitalRead(cny70_I);
+  //monitoriza el estado
+  // 1 --> NEGRO
+  // 1 --> BLANCO
+  Serial.print("CNY70 Izquierdo: ");
+  Serial.print(estadoCNY70_I);
+  Serial.print("\tCNY70 Derecho: ");
+  Serial.println(estadoCNY70_D);
+  delay(1000);
+}
+```
 
 
 
