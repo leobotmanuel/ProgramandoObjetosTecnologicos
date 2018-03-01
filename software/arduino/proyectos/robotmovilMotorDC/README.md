@@ -11,9 +11,9 @@ src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/
 ## Objetos tecnológicos
 - **La tarjeta de control** la forma la placa Arduino-EduBasica donde se conectan los objetos tecnológicos.
 
-- **Motores DC** son los actuadores del robot móvil.
+- [**Motores DC**](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/01_MotorDC) son los actuadores del robot móvil.
 
-Su programa de funcionamiento
+Su programa de funcionamiento de movimientos básicos.
 
 ```cpp
 /*
@@ -102,4 +102,97 @@ void stop(){
   analogWrite(motorB_Velocidad,0);
 }
 ```
+- [**Sensor bumper o parachoques**](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/01_Pulsador) son finales de carrera, que actúan coo pulsadores, para detectar obstáculos.
+
+Su programa de funcionamiento
+
+```cpp
+/*
+Test bumper del robot 
+
+enero 2018 - Manuel Hidalgo / LeoBot
+programa adaptado a EduBasica
+*/
+
+//Declaracion de pines
+
+#define bumperD 18
+#define bumperI 19
+
+//Declaracion de variables
+int estadoBumperD;
+int estadoBumperI;
+
+void setup(){
+  //Configuracion de comunicaciones y pines
+  Serial.begin(9600);
+  pinMode(bumperD, INPUT);
+  pinMode(bumperI, INPUT);
+  
+ }
+ 
+
+void loop() {
+
+  estadoBumperD = digitalRead(bumperD);
+  estadoBumperI = digitalRead(bumperI);
+  //monitoriza el estado
+  // 1 --> NO pulsado
+  // 0 --> pulsado
+  Serial.print("Bumper Izquierdo: ");
+  Serial.print(estadoBumperI);
+  Serial.print("\tBumper Derecho: ");
+  Serial.println(estadoBumperD);
+  delay(1000);
+}
+```
+- [**Sensor de ultrasonido**](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/), sensor que detecta los obstáculos a distancia. 
+
+```cpp
+/*
+Test del sensor ultrasonido 
+
+enero 2018 - Manuel Hidalgo / LeoBot
+programa adaptado a EduBasica
+fuente:https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/
+
+*/
+//Declaracion de los pines 
+const int EchoPin = 16;
+const int TriggerPin = 17;
+
+//Declaracion variables
+int distancia;
+ 
+void setup() {        //Configuracion de comunicaciones y pines
+   Serial.begin(9600);
+   pinMode(TriggerPin, OUTPUT);
+   pinMode(EchoPin, INPUT);
+}
+ 
+void loop() {
+   distancia = medida();
+   Serial.print("Distancia: ");
+   Serial.print(distancia);
+   Serial.println(" cm");
+   delay(1000);
+}
+ 
+int medida() {
+   long duracion, distancaCm;
+   
+   digitalWrite(TriggerPin, LOW);  //inicio del pulso, ponemos a LOW 4us
+   delayMicroseconds(4);
+   digitalWrite(TriggerPin, HIGH);  //generamos Trigger (disparo) de 10us
+   delayMicroseconds(10);
+   digitalWrite(TriggerPin, LOW);   //OFF del pulso
+   
+   duracion = pulseIn(EchoPin, HIGH);  //medimos el tiempo entre pulsos, en microsegundos
+   
+   distancaCm = duracion * 10 / 292/ 2;   //convertimos a distancia, en cm
+   return distancaCm;
+}
+```
+
+
 
