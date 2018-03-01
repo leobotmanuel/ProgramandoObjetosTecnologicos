@@ -203,7 +203,7 @@ int medida() {
 Test CNY70, sensor infrarrojos seguidor de linea, del robot 
 
 enero 2018 - Manuel Hidalgo / LeoBot
-programa adaptado a Robot con EduBasica
+programa adaptado al Robot con EduBasica
 */
 
 //Declaracion de pines
@@ -230,7 +230,7 @@ void loop() {
   estadoCNY70_I = digitalRead(cny70_I);
   //monitoriza el estado
   // 1 --> NEGRO
-  // 1 --> BLANCO
+  // 0 --> BLANCO
   Serial.print("CNY70 Izquierdo: ");
   Serial.print(estadoCNY70_I);
   Serial.print("\tCNY70 Derecho: ");
