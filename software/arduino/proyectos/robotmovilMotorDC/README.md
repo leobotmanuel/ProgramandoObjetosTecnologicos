@@ -8,9 +8,10 @@ El diagrama de bloques del robot móvil es el siguiente
 <a href="" target="_blank"><img width="637" height="256" border="0" align="center"
 src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/diagramaRobot.png"/></a>
 
-<a href="" target="_blank"><img width="832" height="624" border="0" align="center"
+<a href="" target="_blank"><img width="416" height="312" border="0" align="center"
 src="https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos/blob/master/software/arduino/proyectos/img/EducaBot_EduBasica.jpg"/></a>
 
+Fuente: [EducaBot](http://platea.pntic.mec.es/~mhidalgo/educabot.html), Manuel Hidalgo (LeoBot)
 ## Objetos tecnológicos
 - **La tarjeta de control** la forma la placa Arduino-EduBasica donde se conectan los objetos tecnológicos.
 
