@@ -22,7 +22,7 @@ Los recursos que vamos a utilizar
 |[Arduino](https://www.arduino.cc)|[Servomotor (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/02_Servomotor)|[LDR (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/03_LDR_sensorLuz)|
 |  |[Servomotor de rotación continua (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/03_ServomotorRotacionContinua)|   |    |
 |   |**SENSORES**|   |   |
-|[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|[Sharp GP2D12](https://edubasica.github.io/manual/sensor_de_infrarrojos_sharp_gp2d12.html)|[DHT11](http://www.practicasconarduino.com/manualrapido/medida_de_la_temperatura_y_la_humedad_ambiente.html)   |
+|[LM35](https://www.luisllamas.es/medir-temperatura-con-arduino-y-sensor-lm35/)|[HC-SR04](https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/)|[Sharp GP2D12](https://edubasica.github.io/manual/sensor_de_infrarrojos_sharp_gp2d12.html)|[DHT11](https://edubasica.github.io/manual/medida_de_la_temperatura_y_la_humedad_ambiente.html)   |
 |  [CNY70](https://edubasica.github.io/manual/sensor_de_infrarrojos_cny70.html) |   |   |   |
 
 ## Proyectos
