@@ -18,7 +18,7 @@ Los recursos que vamos a utilizar
 |Programar|Actuadores|Sensores|Comunicaciones|
 |---------|----------|--------|--------------|
 |[Arduinoblocks](http://www.arduinoblocks.com/)|[LED (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/04_LED)|[Pulsador (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/01_Pulsador)|[Puerto serie (USB) (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/05_Comunicaciones/00_ComunicacionesSerie)|
-|[EduBasica](http://www.practicasconarduino.com)|[Motor DC (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/01_MotorDC)|[Potenciómetro (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/02_Potenciometro)|[Bluetooth](https://github.com/leobotmanuel/EduBasica/tree/master/software/05_Comunicaciones/01_Bluetooth)|
+|[EduBasica](https://edubasica.github.io/)|[Motor DC (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/01_MotorDC)|[Potenciómetro (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/02_Potenciometro)|[Bluetooth](https://github.com/leobotmanuel/EduBasica/tree/master/software/05_Comunicaciones/01_Bluetooth)|
 |[Arduino](https://www.arduino.cc)|[Servomotor (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/02_Servomotor)|[LDR (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/04_Sensores/03_LDR_sensorLuz)|
 |  |[Servomotor de rotación continua (**)](https://github.com/leobotmanuel/EduBasica/tree/master/software/03_Actuadores/03_ServomotorRotacionContinua)|   |    |
 |   |**SENSORES**|   |   |
